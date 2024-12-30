@@ -1,0 +1,184 @@
+:root{
+    --color-acento: #ee6130;
+    --color-acento-claro: #ee613033;
+    --color-texto: rgb(255, 255, 255);
+
+}
+a{
+    text-decoration: none;
+    color: var(--color-texto)
+}
+a:hover{
+    color: var(--color-acento);
+}
+.carritoimg{
+    width: 120px;
+}
+* { 
+    box-sizing:border-box;
+    font-family:'Roboto',sans-serif,Arial;
+}
+
+main {
+    background-color:rgb(61, 56, 56);
+    overflow: hidden;
+}
+
+
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    }
+
+
+header {
+    background-color: rgb(61, 56, 56);
+    padding: 10px 20px;
+    margin-bottom: auto;
+}
+nav {
+    background-color: #b48d0b;
+    margin-top: 1.5em;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    flex: 1;
+    margin: 10px;
+  }
+  nav a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    margin: 0%;
+    text-align: center;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #928885;
+}
+.logo-container {
+    padding: auto;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #161515;
+    
+}
+
+.logo {
+    width: 14em;
+    height: auto;
+    margin-right: 0.3em;
+    }
+    .logo:hover {
+        transform: scale(1.1); /
+        } 
+
+
+h1 {
+    margin: 0%;
+    font-size:3.2em;
+    text-align: center;
+    flex-grow: 1;
+    color: #ebbe2b;
+    font-family: "Lato", serif;
+    }
+
+h2 {
+    margin: 2px;
+    font-size: 20px; 
+    text-align: center;  
+    }
+
+
+.lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+section {
+    padding: 1%;
+    margin: 2%;
+    background-color: #928885;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+    border-radius: 3% 3% 3% 3%;
+    font-weight: 600;
+}
+.ProductosMasVendidosDIV{
+    padding: 2.5%;
+    margin: 2%;
+    background-color: #ebbe2b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+    font-weight: 600;
+    height: 2em;
+}
+.ImgVendidos{
+    width: 20em;
+    height: 6em;
+    margin: 3%;
+}
+.ProductosMasVendidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10em;
+}
+
+
+#reseñas {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    background-color: #ebbe2b;
+}
+
+.TituloReseña{
+    padding: 2%;
+    margin: 2%;
+    background-color: #ebbe2b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+    font-weight: 600;
+    height: 3px;
+     
+
+}
+
+.reseña {
+    background: #5a5757;
+    color:#000000;
+    margin-top: 1px;
+    margin-bottom: 2px; /* Espacio inferior */
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+footer {
+    margin-top: 2px; /* para que no se encime*/
+    background-color: rgb(36, 33, 33);
+    color: #ebbe2b;
+    text-align: center;
+    padding: 1px 0;
+}
+

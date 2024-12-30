@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Integrador Rodrigo Gonzalez Sierra</title>
+    <link rel="stylesheet" href="/styles/formulario.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Rubik+Wet+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Rubik+Wet+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+		<div class="logo-container">
+			<img src="/img/logo.jpg" alt="Logo" class="logo">
+			<h1>Bienvenido a Joyeria Arturo</h1>
+            <a href="/pages/cart.html"> <img src="/img/carrito.png" alt="carrito de compras " class="carritoimg" ><span id="cuenta-carrito">0</span></a>
+		</div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/productos.html">Productos</a></li>
+                <li><a href="/formulario.html">Contacto</a></li> 
+                <li><a href="/cart.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="FormularioDIV"><h2>Formulario De Joyeria Arturo</h2></div>
+        <section id="contacto">
+            <form action="" method="POST" class="form_contacto" id="formularioContacto">
+                <div class="form-group"></div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"
+                    placeholder="Jose Maria"
+                    required
+                    minlength="3"
+                    maxlength="20"
+                    autofocus>   
+                </div>
+                
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="mariajose@gmail.com"
+                required
+                minlength="3"
+                maxlength="30">
+                <div class="input-group">
+                    <label for="pass">contraseña</label>
+                    <input type="pasword"
+                    name="pass"
+                    id="pass"
+                    minlength="4"
+                    required
+                    >
+                    
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"
+                required
+                maxlength="500"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Proyecto integrador Gonzalez Sierra Rodrigo Copy2024.</p>
+    </footer>
+    <script src="/js/contacto.js"></script>
+</body>
+</html>

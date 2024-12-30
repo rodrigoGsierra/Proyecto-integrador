@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/cart.css">
+    <script src="/js/joyas.js"></script>
+    <script src="/js/cartService.js" defer></script>
+    <script src="/js/cart.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+		<div class="logo-container">
+			<img src="/img/logo.jpg" alt="Logo" class="logo">
+			<h1>Bienvenido a Joyeria Arturo</h1>
+            <a href="/cart.html"> <img src="./img/carrito.png" alt="carrito de compras " class="carritoimg" ><span id="cuenta-carrito">0</span></a>
+		</div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/cart.html">Productos</a></li>
+                <li><a href="/formulario.html">Contacto</a></li>
+                <li><a href="/cart.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <p id="carrito-vacio">No Tiene Productos Agregados Al Carrito. <a href="/productos.html">Agrega algunos</a></p>
+    <section id="productos-container"></section>
+    <section id="totales">
+        <p>Total unidades: <span id="unidades">0</span></p>
+        <p>Total precio: $<span id="precio">0</span></p>
+        <button disabled>Comprar</button>
+        <button id="reiniciar">Reiniciar carrito</button>
+    </section>
+</main>
+    <footer>
+        <p>&copy;Proyecto integrador Gonzalez Sierra Rodrigo Copy2024.</p>
+    </footer>
+</body>
+</html>
